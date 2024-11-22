@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Practica 2 HTML</h1>
+        </div>
+        <nav>
+            <a href="#mas"> Aprende HTML</a>
+            <a href="#formulario">Formulario</a>
+            <a href="#tabla">Tabla</a>
+        </nav>
+    </header>
+
+    <main>
+        <article id="mas">
+            <h2>¿Cómo aprender HTML?</h2>
+            <p>HTML es el lenguaje básico para estructurar contenido en la web...</p>
+            <iframe width="681" height="383" src="https://www.youtube.com/embed/it1rTvBcfRg" title="HTML - Introduction - W3Schools.com" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+        <section id="formulario">
+            <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+                <br>
+                <label for="correo">Correo</label>
+                <input type="text" id="correo">
+                <br>
+                <label for="ocupacion">Ocupacion</label>
+                <select name="ocupacion" id="ocupacion">
+                    <option value="">Estudiante</option>
+                    <option value="">Empleado</option>
+                    <option value="">Emprendedor</option>
+                </select>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="tabla">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Ocupación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ana López</td>
+                        <td>ana.lopez@example.com</td>
+                        <td>Empleado</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Ramírez</td>
+                        <td>carlos.ramirez@example.com</td>
+                        <td>Emprendedor</td>
+                    </tr>
+                    <tr>
+                        <td>María González</td>
+                        <td>maria.gonzalez@example.com</td>
+                        <td>Estudiante</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Martínez</td>
+                        <td>pedro.martinez@example.com</td>
+                        <td>Estudiante</td>
+                    </tr>
+                    <tr>
+                        <td>Sofía Hernández</td>
+                        <td>sofia.hernandez@example.com</td>
+                        <td>Emprendedor</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Sobre Mi</h2>
+        <a href="https://github.com/Alfred010101">GitHub</a>
+    </footer>
+</body>
+</html>
