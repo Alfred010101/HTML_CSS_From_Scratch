@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: x-large;
+    color: white;
+    width: 30%;
+    background-color: blueviolet;
+    transition: width 3s;
+  }
+  
+  p:active {
+    width: 100%;
+  }
+
+  #box {
+    width: 100px;
+    height: 100px;
+    background-color: #4169E1;
+    transition: width 3s, height 3s, background-color 3s;
+  }
+  
+  #box:hover {
+    width: 150px;
+    height: 150px;
+    background-color: #DC143C;
+  }
+
+  #element {
+    width: 100px;
+    background-color: rgb(133, 68, 187);
+    color: white;
+    margin-top: 20px;
+    transition: width 2s, background-color 2s;
+    transition-delay: 2s;
+  }
+  
+  #element:active {
+    width: 200px;
+    background-color: rgb(118, 108, 216);
+  }
+
+  #content{
+    background-color: #327e20;
+    padding: 20px 50px 20px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+    border-radius: 15px;
+    padding: 10px 30px;
+    width: 100px;
+    border: none;
+    font-size: 14px;
+    background-color: #632bbe;
+    color: white;
+    transition: background-color 2s, color 2s, width 1s;
+    text-align: center;
+  }
+
+  button:active{
+    transform: translate(1px, 1px);
+  }
+
+  button:hover{
+    background-color: #c4aceb;
+    color: black;
+    width: 120px;
+  }
+
+  .spinner {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    border: 8px solid #7F622F;
+    border-radius: 50%;  
+    border-top: 8px solid #FB9C02;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear 0.5s infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+  }
