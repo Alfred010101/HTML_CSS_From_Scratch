@@ -1,0 +1,33 @@
+#content1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px;
+}
+
+#content2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(43, 122, 226);
+    margin: 20px;
+}
+
+#content3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 110, 43);
+    margin: 20px;
+}
+
+#content1:active{
+    transform: translate(20px, 20px);
+}
+
+#content2:hover{
+    transform: scale(0.9);
+}
+
+#content3:active{
+    transform: rotate(-25deg);
+    transform-origin: top right;
+}
